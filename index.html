@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .cd{
+            background-color: aqua;
+            display: grid;
+            padding: 5px;
+            grid-template-rows: 50px 50px 50px;
+            gap:10px;
+            grid-template-areas: 
+            "area1 area2 area3 "
+            "area4 area6 area6"
+            "area5 area6 area6"
+        }
+        .c1{
+            background-color: blue;
+            grid-area:area1;
+        }
+        .c2{
+            background-color: violet;
+            grid-area:area2;
+        }
+        .c3{
+            background-color: orange;
+            grid-area:area3;
+        }
+        .c4{
+            background-color: red;
+            grid-area:area4;
+        }
+        .c5{
+            background-color: pink;
+            grid-area:area5;
+        }
+        .c6{
+            background-color:green;
+            grid-area:area6;
+        }
+    </style>
+</head>
+<body>
+    <div class="cd">
+    <div class="c1">item1</div>
+    <div class="c2">item2</div>
+    <div class="c3">item3</div>
+    <div class="c4">item4</div>
+    <div class="c5">item5</div>
+    <div class="c6">item6</div>
+</div> 
+    
+</body>
+</html>
